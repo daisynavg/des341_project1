@@ -1,0 +1,104 @@
+/*font-family: 'Cormorant Unicase', serif;
+    font-family: 'Raleway', sans-serif; */
+    
+
+body { 
+    background-color: #EfEEF0;
+    font-family: 'Raleway', sans-serif;}
+
+.homepage-background {
+    background-image: url(../des341_project1/Images/homepage_background.png);}
+
+h1 { 
+    position: absolute;
+    width: 268px;
+    height: 47px;
+    left: 300px;
+    top: 320px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #6C59A2;
+}
+
+.logo {position: absolute;
+    width: 571px;
+    height: 165px;
+    left: 300px;
+    top: 348px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    }
+
+/*home-nav {
+    color: #6C59A2;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 17px;
+}*/
+
+#dot-nav{    
+    position: absolute;
+    width: 181px;
+    height: 474px;
+    left: 94px;
+    top: 199px;}
+
+a:link {
+    color: #6C59A2;
+     text-decoration: none;}
+      
+a:visited {
+    color: #6C59A2;
+    text-decoration: none;}
+      
+ a:hover {
+        text-decoration: none;}
+      
+a:active {
+    text-decoration: none;}
+    
+#dot-nav ul {
+        list-style: none;
+        margin:0;
+        padding: 0;}
+
+#dot-nav li {
+        position: relative;
+        background-color: #9BA1C2;
+        border:3px solid #9BA1C2;
+        border-radius: 15px 15px 15px 15px;
+        cursor: pointer;
+        padding: 8px;
+        height: 8px;
+        margin: 45px 10px 0px 0px;
+        width: 8px;
+        vertical-align:bottom;}
+
+#dot-nav li.active, #dot-nav li:hover {
+        background-color: #6C59A2;}
+    
+#dot-nav a {
+        outline: 0;
+        vertical-align:top;
+        margin: 0px 0px 0px 25px;
+        position: relative;
+        top:-5px;}
+
+.awesome-tooltip {
+    color: #6C59A2;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 17px;}
+
+
+.awesome-tooltip + .tooltip > .tooltip-inner {
+        /*background-color: #8e44ad;*/ 
+        color: #f5f5f5; 
+        border: 1px solid #6C59A2;}
+
+.awesome-tooltip + .tooltip.left > .tooltip-arrow{
+        top:50%;
+        right:0;
+        margin-top:-5px;
+        border-top:5px solid transparent;
+        border-bottom:5px solid transparent;
+        border-left:5px solid #6C59A2;}
