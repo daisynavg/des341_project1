@@ -4,6 +4,7 @@
 body {
   background-color: #efeef0;
   font-family: 'Raleway', sans-serif;
+  margin-right: 65px;
 }
 
 .homepage-background {
@@ -90,8 +91,9 @@ a:active {
   vertical-align: bottom;
 }
 
-#dot-nav li.active,
-#dot-nav li:hover {
+
+#dot-nav li:hover,
+#dot-nav li.active{
   background-color: #6c59a2;
 }
 
@@ -104,7 +106,6 @@ a:active {
 }
 
 .awesome-tooltip {
-  color: #6c59a2;
   font-family: 'Cormorant Unicase', serif;
   font-size: 17px;
 }
@@ -112,7 +113,6 @@ a:active {
 .awesome-tooltip + .tooltip > .tooltip-inner {
   /*background-color: #8e44ad;*/
   color: #f5f5f5;
-  border: 1px solid #6c59a2;
 }
 
 .awesome-tooltip + .tooltip.left > .tooltip-arrow {
@@ -146,6 +146,11 @@ a:active {
 }
 .subpage .content {
   padding: 16px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 21px;
+  margin-top: -23px;
+  margin-bottom: 0px;
+  color: #9ba1c2;
 }
 hr {
   border-top: 1px solid rgba(155, 161, 194, 1);
@@ -155,14 +160,81 @@ hr {
   position: relative;
 }
 .subpage h2 {
-  font-size: 96px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 90px;
+  color: #6c59a2;
 }
 .moon-img h2 {
   position: absolute;
-  top: 40px;
-  right: 0;
+  top: 150px;
+  right: 30PX;
 }
+.subpage h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 90px;
+  color: #6c59a2;
+}
+.moon-img h4 {
+  position: absolute;
+  top: 620px;
+  right: 30PX;
+}
+
+.subpage h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  font-size: 90px;
+  color: #6c59a2;
+}
+.moon-img h5 {
+  position: absolute;
+  top: 1080px;
+  right: 30PX;
+}
+
 .moon-img img {
   display: inline-block;
   width: 80%;
+}
+
+header {
+color: #6C59A2;
+font-family: 'Cormorant Unicase', serif;
+font-size: 30pt;
+}
+h3 {
+  color: #9BA1C2;
+  font-family: 'Cormorant Unicase', serif;
+  font-weight: lighter;
+  font-size: 30pt;
+  margin-left: 30px;
+  }
+.moon-img hr {
+  margin-top: -40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.moon-info {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 16px;
+  line-height: 21px;
+  margin-top: -23px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #9ba1c2;
+}
+.texture {
+  display: inline-block;
+  width: 125%;
+  margin-top: -100px;
+}
+header .name {
+margin-left: 300px;
+margin-bottom: 40px;
+}
+
+.right-img{
+  margin-top: 200px;
 }
